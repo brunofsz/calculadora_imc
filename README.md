@@ -23,6 +23,10 @@ Este é um projeto simples de uma **Calculadora de IMC** desenvolvida com **HTML
 
 ## 💻 Como usar
 
+- Abra o link "https://brunofsz.github.io/calculadora_imc/" no seu navegador
+
+     OU
+   
 1. Clone o repositório
 2. Abra o arquivo `index.html` no seu navegador
 
