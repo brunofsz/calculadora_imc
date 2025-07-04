@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: #090e22;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: white;
+}
+.hide {
+  display: none !important;
+}
+.container {
+  min-width: 400px;
+  min-height: 400px;
+  background-color: #1d1e33;
+  padding: 2rem;
+}
+
+/* CALCULADORA FORM */
+
+#calculadora h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.formInput {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.controlaLabel {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-bottom: 1rem;
+}
+.controlaLabel label {
+  font-weight: bold;
+  margin-bottom: 0.6rem;
+  color: #ccc;
+}
+.controlaLabel input {
+  padding: 1rem 0.5rem;
+}
+.controlaAcoes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+button {
+  text-transform: uppercase;
+  padding: 1rem 1.5rem;
+  background-color: #f44236;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  opacity: 0.9;
+  flex: 1;
+  font-weight: bold;
+}
+button:hover {
+  opacity: 1;
+}
+
+#clearBtn {
+  background-color: #535353;
+}
+
+/* TBL */
+
+#resultado {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+#imcNumber {
+  font-size: 2.4rem;
+  margin-bottom: 0.6rem;
+}
+#imcInfo {
+  font-size: 1.4rem;
+  color: #ccc;
+}
+#resultado h3 {
+  margin-top: 1rem;
+  color: #dfdfdf;
+}
+#imcTable {
+  margin: 1.5rem 0;
+  font-size: 0.8rem;
+}
+
+.tableHeader {
+  font-weight: bold;
+  color: #ccc;
+}
+.tableHeader,
+.tableData {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: solid 1px #444;
+  text-align: center;
+}
+.tableHeader h4,
+.tableData p {
+  flex: 1;
+}
+.tableHeader h4:nth-child(3),
+.tableData p:nth-child(3) {
+  max-width: 80px;
+}
+#back {
+  align-self: center;
+}
+.low {
+  color: #dbce12;
+}
+.mid {
+  color: #db6212;
+}
+.high {
+  color: #db1912;
+}
+.good {
+  color: #12db34;
+}
