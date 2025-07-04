@@ -31,3 +31,5 @@ Este é um projeto simples de uma **Calculadora de IMC** desenvolvida com **HTML
 2. Abra o arquivo `index.html` no seu navegador
 
 ## 📸 Preview
+
+![Preview](Assets/Preview.png)
